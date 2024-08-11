@@ -1,1 +1,3 @@
 awk 'BEGIN{print "col1 - col2 - col3"}   BEGIN{FS="|"; OFS=" - "} {print $1,$2,$3} {sum+=$3;}END{print sum;}' data.txt
+
+echo "I'm Hessam, hello"
